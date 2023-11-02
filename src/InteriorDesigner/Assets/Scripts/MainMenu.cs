@@ -18,9 +18,7 @@ public class MainMenu : MonoBehaviour
 
     private void listRoom()
     {
-        //открытие другого меню
         ListRoom.SetActive(true);
-        //закрытие текущего меню
         mainMenu.SetActive(false);
     }
 
