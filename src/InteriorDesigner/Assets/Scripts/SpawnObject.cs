@@ -19,7 +19,7 @@ public class SpawnObject : MonoBehaviour
     void Spawn()
     {
         Transform playerTransform = Camera.main.transform;
-
-        Instantiate(SpawnObjects, playerTransform.position + playerTransform.forward * 4, Quaternion.identity);
+        var instance = Instantiate(SpawnObjects, playerTransform.position + playerTransform.forward * 4, Quaternion.identity);
+        previewNo.objects = instance;
     }
 }
