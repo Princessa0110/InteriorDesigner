@@ -231,7 +231,6 @@ GameObject:
   - component: {fileID: 3813791980284346855}
   - component: {fileID: 8733056775275171980}
   - component: {fileID: 6005346837117890197}
-  - component: {fileID: 1896236285333595948}
   m_Layer: 0
   m_Name: Modern
   m_TagString: Untagged
@@ -893,21 +892,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   seeItSayItLabel: {fileID: 4172279930728860371}
   positionControl: {fileID: 0}
---- !u!114 &1896236285333595948
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 371613868616075668}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bad99dd9ba460a4fbc6894371da4970, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ListRoom: {fileID: 0}
-  mainMenu: {fileID: 4327432035800975789}
-  button: {fileID: 6156619965014110958}
 --- !u!1 &457435489085545178
 GameObject:
   m_ObjectHideFlags: 0
@@ -1783,7 +1767,6 @@ GameObject:
   - component: {fileID: 1147524356116647838}
   - component: {fileID: 6951592512518562725}
   - component: {fileID: 8246114870941252070}
-  - component: {fileID: 2554061494763467941}
   m_Layer: 0
   m_Name: Loft
   m_TagString: Untagged
@@ -2445,21 +2428,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   seeItSayItLabel: {fileID: 7802842919181655359}
   positionControl: {fileID: 0}
---- !u!114 &2554061494763467941
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1008455175989436619}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bad99dd9ba460a4fbc6894371da4970, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ListRoom: {fileID: 0}
-  mainMenu: {fileID: 4327432035800975789}
-  button: {fileID: 5053349320784850201}
 --- !u!1 &1011032244606064044
 GameObject:
   m_ObjectHideFlags: 0
@@ -3969,7 +3937,6 @@ GameObject:
   - component: {fileID: 3063354611422926059}
   - component: {fileID: 3380280089492621283}
   - component: {fileID: 4971600891082749075}
-  - component: {fileID: 1285934982343992650}
   m_Layer: 0
   m_Name: HaiTec
   m_TagString: Untagged
@@ -4631,21 +4598,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   seeItSayItLabel: {fileID: 7057992477948654394}
   positionControl: {fileID: 0}
---- !u!114 &1285934982343992650
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1701704142827781741}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bad99dd9ba460a4fbc6894371da4970, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ListRoom: {fileID: 0}
-  mainMenu: {fileID: 4327432035800975789}
-  button: {fileID: 4729279626025907340}
 --- !u!1 &1737822120295177490
 GameObject:
   m_ObjectHideFlags: 0
@@ -7041,7 +6993,7 @@ GameObject:
   - component: {fileID: 8246964152237679930}
   - component: {fileID: 483577523123382857}
   m_Layer: 0
-  m_Name: 2.StylesScreen
+  m_Name: 2.StyleMenuScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10034,7 +9986,6 @@ GameObject:
   - component: {fileID: 1217819737221356057}
   - component: {fileID: 8906327254025268162}
   - component: {fileID: 92418017670598288}
-  - component: {fileID: 4377134461003237559}
   m_Layer: 0
   m_Name: Scandiavskii
   m_TagString: Untagged
@@ -10696,21 +10647,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   seeItSayItLabel: {fileID: 7090594479670742220}
   positionControl: {fileID: 0}
---- !u!114 &4377134461003237559
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7923140799224206992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bad99dd9ba460a4fbc6894371da4970, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ListRoom: {fileID: 0}
-  mainMenu: {fileID: 4327432035800975789}
-  button: {fileID: 1951618237356393174}
 --- !u!1 &7955907849406743530
 GameObject:
   m_ObjectHideFlags: 0
@@ -11344,7 +11280,6 @@ GameObject:
   - component: {fileID: 9190465590719880268}
   - component: {fileID: 2009164281661720947}
   - component: {fileID: 4669009389194669668}
-  - component: {fileID: 6628938017854140444}
   m_Layer: 0
   m_Name: Minimalizm
   m_TagString: Untagged
@@ -12006,21 +11941,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   seeItSayItLabel: {fileID: 893942056141014793}
   positionControl: {fileID: 0}
---- !u!114 &6628938017854140444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9179779067021243756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bad99dd9ba460a4fbc6894371da4970, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ListRoom: {fileID: 0}
-  mainMenu: {fileID: 4327432035800975789}
-  button: {fileID: 3418043639390921024}
 --- !u!1001 &451953188958023668
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12236,44 +12156,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8376646494505211202, guid: c6b351a67ceb69140b199996bbbea156, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 9102249250522874695}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6b351a67ceb69140b199996bbbea156, type: 3}
 --- !u!224 &8249040482629565097 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8376646494505211229, guid: c6b351a67ceb69140b199996bbbea156, type: 3}
   m_PrefabInstance: {fileID: 451953188958023668}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8249040482629565102 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8376646494505211226, guid: c6b351a67ceb69140b199996bbbea156, type: 3}
-  m_PrefabInstance: {fileID: 451953188958023668}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8249040482629565110}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c32e8a7644144f8419bb881ad588ed0e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &8249040482629565110 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8376646494505211202, guid: c6b351a67ceb69140b199996bbbea156, type: 3}
-  m_PrefabInstance: {fileID: 451953188958023668}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &9102249250522874695
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8249040482629565110}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bad99dd9ba460a4fbc6894371da4970, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ListRoom: {fileID: 0}
-  mainMenu: {fileID: 4327432035800975789}
-  button: {fileID: 8249040482629565102}
