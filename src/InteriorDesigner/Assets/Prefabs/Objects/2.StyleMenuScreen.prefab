@@ -6992,6 +6992,7 @@ GameObject:
   - component: {fileID: 7945799679304505265}
   - component: {fileID: 8246964152237679930}
   - component: {fileID: 483577523123382857}
+  - component: {fileID: 3265744133009210058}
   m_Layer: 0
   m_Name: 2.StyleMenuScreen
   m_TagString: Untagged
@@ -7084,6 +7085,27 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RaycastTriggerInteraction: 1
+--- !u!114 &3265744133009210058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4327432035800975789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2619c84f62d540178ccf3515082b816a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Minimalism: {fileID: 3418043639390921024}
+  Modern: {fileID: 6156619965014110958}
+  Scandinavian: {fileID: 1951618237356393174}
+  Loft: {fileID: 5053349320784850201}
+  HighTech: {fileID: 4729279626025907340}
+  Exit: {fileID: 0}
+  listRoom: {fileID: 0}
+  scroll: {fileID: 8249040482629565110}
+  roomType: 0
 --- !u!1 &4439560583315800327
 GameObject:
   m_ObjectHideFlags: 0
@@ -12051,7 +12073,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8376646494505211202, guid: c6b351a67ceb69140b199996bbbea156, type: 3}
       propertyPath: m_Name
-      value: Action Button
+      value: Exit Action Button
       objectReference: {fileID: 0}
     - target: {fileID: 8376646494505211202, guid: c6b351a67ceb69140b199996bbbea156, type: 3}
       propertyPath: m_Layer
@@ -12161,5 +12183,10 @@ PrefabInstance:
 --- !u!224 &8249040482629565097 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8376646494505211229, guid: c6b351a67ceb69140b199996bbbea156, type: 3}
+  m_PrefabInstance: {fileID: 451953188958023668}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8249040482629565110 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8376646494505211202, guid: c6b351a67ceb69140b199996bbbea156, type: 3}
   m_PrefabInstance: {fileID: 451953188958023668}
   m_PrefabAsset: {fileID: 0}
