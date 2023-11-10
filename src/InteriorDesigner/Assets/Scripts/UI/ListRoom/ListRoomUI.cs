@@ -4,8 +4,7 @@ using UnityEngine;
 public class ListRoomUI : MonoBehaviour
 {
     public PressableButton Kitchen, Bedroom, LivingRoom, Cabinet, Bathroom, Exit;
-    public GameObject mainMenu;
-    public GameObject styleMenu;
+    public GameObject mainMenu, styleMenu;
 
     private void Start()
     {
@@ -14,19 +13,23 @@ public class ListRoomUI : MonoBehaviour
         LivingRoom.OnClicked.AddListener(() => OpenStyleMenuRoom(RoomType.LivingRoom));
         Cabinet.OnClicked.AddListener(() => OpenStyleMenuRoom(RoomType.Cabinet));
         Bathroom.OnClicked.AddListener(() => OpenStyleMenuRoom(RoomType.Bathroom));
+        
         Exit.OnClicked.AddListener(OpenMainMenu);
     }
 
     private void OpenStyleMenuRoom(RoomType roomType)
     {
         styleMenu.GetComponent<StyleMenuUI>().roomType = roomType;
+
         styleMenu.SetActive(true);
+        
         gameObject.SetActive(false);
     }
     
     private void OpenMainMenu()
     {
         gameObject.SetActive(false);
+        
         mainMenu.SetActive(true);
     }
 }

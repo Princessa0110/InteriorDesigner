@@ -7102,9 +7102,9 @@ MonoBehaviour:
   Scandinavian: {fileID: 1951618237356393174}
   Loft: {fileID: 5053349320784850201}
   HighTech: {fileID: 4729279626025907340}
-  Exit: {fileID: 0}
+  Exit: {fileID: 8249040482629565102}
   listRoom: {fileID: 0}
-  scroll: {fileID: 8249040482629565110}
+  scroll: {fileID: 0}
   roomType: 0
 --- !u!1 &4439560583315800327
 GameObject:
@@ -12185,8 +12185,14 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8376646494505211229, guid: c6b351a67ceb69140b199996bbbea156, type: 3}
   m_PrefabInstance: {fileID: 451953188958023668}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &8249040482629565110 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8376646494505211202, guid: c6b351a67ceb69140b199996bbbea156, type: 3}
+--- !u!114 &8249040482629565102 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8376646494505211226, guid: c6b351a67ceb69140b199996bbbea156, type: 3}
   m_PrefabInstance: {fileID: 451953188958023668}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c32e8a7644144f8419bb881ad588ed0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

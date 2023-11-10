@@ -3,8 +3,7 @@ using UnityEngine;
 
 public class MainMenuUI : MonoBehaviour
 {
-    public PressableButton startButton;
-    public PressableButton exitButton;
+    public PressableButton startButton, exitButton;
     public GameObject listRoom;
     
     private void Start()
