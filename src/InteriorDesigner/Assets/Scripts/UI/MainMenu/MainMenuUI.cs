@@ -10,6 +10,8 @@ public class MainMenuUI : MonoBehaviour
     {
         startButton.OnClicked.AddListener(StartGame);
         exitButton.OnClicked.AddListener(ExitGame);
+        
+        gameObject.SetActive(true);
     }
     
     private void StartGame()

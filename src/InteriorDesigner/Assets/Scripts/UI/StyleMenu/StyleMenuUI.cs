@@ -16,6 +16,8 @@ public class StyleMenuUI : MonoBehaviour
         HighTech.OnClicked.AddListener(() => OpenScroll(StyleType.HighTech));
 
         Exit.OnClicked.AddListener(OpenListRoom);
+        
+        gameObject.SetActive(false);
     }
 
     private void OpenScroll(StyleType styleType)
