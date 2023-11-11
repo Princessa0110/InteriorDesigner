@@ -15,6 +15,8 @@ public class ListRoomUI : MonoBehaviour
         Bathroom.OnClicked.AddListener(() => OpenStyleMenuRoom(RoomType.Bathroom));
         
         Exit.OnClicked.AddListener(OpenMainMenu);
+        
+        gameObject.SetActive(false);
     }
 
     private void OpenStyleMenuRoom(RoomType roomType)

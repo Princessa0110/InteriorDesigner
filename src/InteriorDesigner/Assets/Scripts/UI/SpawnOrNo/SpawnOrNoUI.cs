@@ -12,6 +12,8 @@ public class SpawnOrNoUI : MonoBehaviour
         yes.OnClicked.AddListener(Yes);
         
         no.OnClicked.AddListener(No);
+        
+        gameObject.SetActive(false);
     }
 
     private void No()

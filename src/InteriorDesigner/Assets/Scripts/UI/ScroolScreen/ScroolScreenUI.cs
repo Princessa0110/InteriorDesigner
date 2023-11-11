@@ -8,12 +8,16 @@ public class ScroolScreenUI : MonoBehaviour
     public GameObject buttonPrefab;
     public PressableButton exitButton;
     public Transform contentTransform;
-    public ItemData[] itemDataArray;
     private List<GameObject> buttons = new();
+    private ItemData[] itemDataArray;
 
     private void Start()
     {
+        itemDataArray = Resources.LoadAll<ItemData>("Data");
+            
         exitButton.OnClicked.AddListener(OpenStyleMenu);
+        
+        gameObject.SetActive(false);
     }
 
     public void SetUp(StyleType styleType, RoomType roomType)
