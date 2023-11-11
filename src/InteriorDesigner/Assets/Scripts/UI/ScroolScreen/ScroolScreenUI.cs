@@ -22,8 +22,6 @@ public class ScroolScreenUI : MonoBehaviour
 
     public void SetUp(StyleType styleType, RoomType roomType)
     {
-        RemoveAllButton();
-
         foreach (var itemData in itemDataArray)
         {
             if (itemData.roomType == roomType && itemData.styleType == styleType)
@@ -36,6 +34,8 @@ public class ScroolScreenUI : MonoBehaviour
     private void CreatedCreatedButton(ItemData itemData)
     {
         var instance = Instantiate(buttonPrefab, contentTransform);
+        
+        buttons.Add(instance);
         
         var itemButtonUI = instance.GetComponent<ItemButtonUI>();
         
@@ -57,6 +57,15 @@ public class ScroolScreenUI : MonoBehaviour
         gameObject.SetActive(false);
     }
 
+    private void OpenStyleMenu()
+    {
+        RemoveAllButton();
+        
+        gameObject.SetActive(false);
+        
+        styleMenu.SetActive(true);
+    }
+    
     private void RemoveAllButton()
     {
         while (buttons.Count > 0)
@@ -65,12 +74,5 @@ public class ScroolScreenUI : MonoBehaviour
            
             buttons.RemoveAt(0);
         }
-    }
-
-    private void OpenStyleMenu()
-    {
-        gameObject.SetActive(false);
-        
-        styleMenu.SetActive(true);
     }
 }
